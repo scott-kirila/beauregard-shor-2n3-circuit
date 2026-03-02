@@ -19,7 +19,7 @@ This project implements that oracle using **Beauregard's construction**, which a
 
 The implementation follows:
 
-> S. Beauregard, *Circuit for Shor's algorithm using 2n+3 qubits*, Quantum Information & Computation, 3(2), 2003. [[arXiv:quant-ph/0205095]](https://arxiv.org/abs/quant-ph/0205095)
+> Beauregard, S. "Circuit for Shor's algorithm using 2n+3 qubits", *Quantum Information & Computation*, 3(2), 175-185, 2003. [[arXiv:quant-ph/0205095]](https://arxiv.org/abs/quant-ph/0205095)
 
 Key design choices from Beauregard's paper:
 - **QFT adder**: Addition is performed in the frequency domain, avoiding carry qubits and reducing ancilla overhead.
@@ -112,8 +112,7 @@ oracle.qc.draw("mpl")  # Draw the full C-U_a circuit
 ```
 
 ## References
-
-- Beauregard, S. (2003). Circuit for Shor's algorithm using 2n+3 qubits. *QIC*, 3(2), 175–185.
+- Beauregard, S. "Circuit for Shor's algorithm using 2n+3 qubits", *Quantum Information & Computation*, 3(2), 175-185, 2003. [[arXiv:quant-ph/0205095]](https://arxiv.org/abs/quant-ph/0205095)
 - [Qiskit Documentation](https://docs.quantum.ibm.com/)
 
 ## License
