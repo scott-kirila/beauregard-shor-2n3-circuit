@@ -76,7 +76,7 @@ The oracle can be instantiated directly:
 ```python
 oracle = ShorOracle(a=7, N=15)
 print(oracle)          # ShorOracle(a=7, N=15; n=4, qubits=11)
-oracle.qc.draw("mpl")  # Draw the full C-U_a circuit
+oracle.qc.draw("mpl")  # Draw the base C-U_a circuit. Deeper levels can be drawn as shown in the notebook
 ```
 
 ## References
