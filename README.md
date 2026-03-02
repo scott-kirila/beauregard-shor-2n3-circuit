@@ -1,4 +1,4 @@
-# Modular Multiplication for Shor's Algorithm in $2n+3$ qubits
+# Modular Multiplication for Shor's Algorithm in $2n+3$ Qubits
 
 A Qiskit implementation of the modular exponentiation circuit for Shor's algorithm following the construction described in Beauregard (2003). The notebook also includes a full demo of Shor's algorithm via Quantum Phase Estimation (QPE).
 
