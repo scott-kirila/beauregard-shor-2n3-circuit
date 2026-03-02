@@ -70,7 +70,18 @@ a= 7, N=15 | 11 qubits (2n+3=11) | All passed ☑️
 | Property | Value |
 |----------|-------|
 | Qubits | 11 |
-| Dominant gates | `p` (phase), `cx` |
+| Depth | 403 |
+| Total gates | 750 |
+
+| Gate | Count |
+|------|-------|
+| `cp` | 400 |
+| `h` | 154 |
+| `mcphase` | 120 |
+| `p` | 32 |
+| `u2` | 24 |
+| `cx` | 16 |
+| `cswap` | 4 |
 
 ### Full Shor's Algorithm Demo
 
