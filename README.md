@@ -4,7 +4,7 @@ A Qiskit implementation of the modular exponentiation circuit for Shor's algorit
 
 ## Overview
 
-Shor's algorithm factors an integer $N$ in polynomial time on a quantum computer by reducing the factoring problem to quantum period finding. The most expensive subroutine is **modular exponentiation** — computing $a^x \mod N$ in superposition — which requires a carefully constructed quantum oracle.
+Shor's algorithm factors an integer $N$ in polynomial time on a quantum computer by reducing the factoring problem to quantum period finding. The most expensive subroutine is **modular exponentiation** — computing $a^x \bmod N$ in superposition — which requires a carefully constructed quantum oracle.
 
 This project implements that oracle using **Beauregard's construction**, which achieves an efficient qubit count by building the circuit from four nested layers:
 
