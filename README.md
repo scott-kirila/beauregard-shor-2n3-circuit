@@ -1,6 +1,6 @@
-# Beauregard's Shor Oracle
+# Modular Multiplication for Shor's Algorithm in $2n+3$ qubits
 
-A Qiskit implementation of the modular exponentiation oracle for Shor's algorithm, following the efficient circuit construction described in Beauregard (2003). The notebook also includes a full end-to-end Shor's algorithm demo via Quantum Phase Estimation (QPE).
+A Qiskit implementation of the modular exponentiation circuit for Shor's algorithm following the construction described in Beauregard (2003). The notebook also includes a full demo of Shor's algorithm via Quantum Phase Estimation (QPE).
 
 ## Overview
 
